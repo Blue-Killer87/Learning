@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Library.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DynLibrary"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="26" Y="31"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="3">
+      <Position>
+        <Filename Value="Library.lpr"/>
+        <Caret Line="11" Column="19"/>
+      </Position>
+      <Position>
+        <Filename Value="Library.lpr"/>
+        <Caret Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="Library.lpr"/>
+        <Caret Line="26" Column="25"/>
+      </Position>
+      <Position>
+        <Filename Value="Library.lpr"/>
+        <Caret Line="7" Column="36"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

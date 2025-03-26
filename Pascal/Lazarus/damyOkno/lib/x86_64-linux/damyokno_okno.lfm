@@ -1,0 +1,51 @@
+object Okno: TOkno
+  Left = 964
+  Height = 1031
+  Top = 10
+  Width = 627
+  Caption = 'Okno'
+  Menu = hlavnimenu
+  OnCreate = FormCreate
+  LCLVersion = '3.8.0.0'
+  object hlavnimenu: TMainMenu
+    Left = 10
+    Top = 10
+    object menuUloha: TMenuItem
+      Caption = 'Úloha'
+      OnClick = menuUlohaClick
+      object MenuNova: TMenuItem
+        Caption = 'Nová'
+        OnClick = MenuNovaClick
+      end
+      object MenuNajdiDalsi: TMenuItem
+        Caption = 'Najdi Další Řešení'
+      end
+      object MenuCelkovyPocet: TMenuItem
+        Caption = 'Celkový Počet Řešení...'
+      end
+      object Separator1: TMenuItem
+        Caption = '-'
+      end
+      object MenuKonec: TMenuItem
+        Caption = 'Konec'
+        OnClick = MenuKonecClick
+      end
+    end
+    object MenuNastaveni: TMenuItem
+      Caption = 'Nastavení'
+      object MenuUpravit: TMenuItem
+        Caption = 'Upravit...'
+      end
+      object MenuVychoziNastaveni: TMenuItem
+        Caption = 'Obnovit Výchozí'
+      end
+    end
+    object MenuNapoveda: TMenuItem
+      Caption = 'Nápověda'
+      object MenuOProgramu: TMenuItem
+        Caption = 'O Programu...'
+        OnClick = MenuOProgramuClick
+      end
+    end
+  end
+end

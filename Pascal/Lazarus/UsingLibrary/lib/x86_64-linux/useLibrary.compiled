@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1714586784"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -gw3 -gl -l -vewnhibq -Fi/home/blue/Prog/Pascal/UsingLibrary/lib/x86_64-linux -Fu/home/blue/Prog/Pascal/UsingLibrary/ -FU/home/blue/Prog/Pascal/UsingLibrary/lib/x86_64-linux/ -FE/home/blue/Prog/Pascal/UsingLibrary/ -o/home/blue/Prog/Pascal/UsingLibrary/useLibrary useLibrary.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>
