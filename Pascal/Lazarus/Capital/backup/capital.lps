@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="capital.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="23" Y="15"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="5">
+      <Position>
+        <Filename Value="capital.lpr"/>
+        <Caret Line="9" Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="capital.lpr"/>
+        <Caret Line="8" Column="14"/>
+      </Position>
+      <Position>
+        <Filename Value="capital.lpr"/>
+        <Caret Line="3" Column="33"/>
+      </Position>
+      <Position>
+        <Filename Value="capital.lpr"/>
+        <Caret Line="24" Column="22"/>
+      </Position>
+      <Position>
+        <Filename Value="capital.lpr"/>
+        <Caret Line="14" Column="8"/>
+      </Position>
+      <Position>
+        <Filename Value="capital.lpr"/>
+        <Caret Line="15" Column="16"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
