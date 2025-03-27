@@ -11,146 +11,176 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="26"/>
       </Unit>
       <Unit>
         <Filename Value="damyokno_okno.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Okno"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="33"/>
-        <CursorPos X="67" Y="64"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="86"/>
+        <CursorPos X="21" Y="97"/>
+        <UsageCount Value="26"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="nastaveni.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="12"/>
-        <CursorPos X="65" Y="14"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="52"/>
+        <CursorPos X="12" Y="66"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="damy.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
         <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="damyokno_okno.lfm"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="13"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="damy/damy.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="82"/>
+        <CursorPos Y="115"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="28">
-      <Position>
-        <Filename Value="nastaveni.pas"/>
-        <Caret Line="16" Column="11"/>
-      </Position>
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="37"/>
+        <Caret Line="8" Column="79"/>
       </Position>
       <Position>
         <Filename Value="nastaveni.pas"/>
-        <Caret Line="17" Column="29"/>
+        <Caret Line="27" Column="41" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="13" Column="73"/>
+      </Position>
+      <Position>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="81" Column="18" TopLine="59"/>
+      </Position>
+      <Position>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="39" Column="28" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="37" Column="28" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="39" Column="5" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="65" Column="39" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="8" Column="86"/>
       </Position>
       <Position>
         <Filename Value="nastaveni.pas"/>
-        <Caret Line="21" Column="23"/>
+        <Caret Line="14" TopLine="2"/>
       </Position>
       <Position>
         <Filename Value="nastaveni.pas"/>
-        <Caret Line="27" Column="43"/>
-      </Position>
-      <Position>
-        <Filename Value="nastaveni.pas"/>
-        <Caret Line="21" Column="14"/>
-      </Position>
-      <Position>
-        <Filename Value="nastaveni.pas"/>
-        <Caret Line="49" Column="18" TopLine="11"/>
+        <Caret Line="66" Column="12" TopLine="46"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="22" Column="51"/>
+        <Caret Line="34" Column="15" TopLine="23"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="33" Column="3"/>
+        <Caret Line="84" Column="36" TopLine="73"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="34" Column="3"/>
+        <Caret Line="88" Column="76" TopLine="74"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="35" Column="3"/>
+        <Caret Line="93" Column="41" TopLine="78"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="36" Column="3"/>
+        <Caret Line="90" Column="14" TopLine="78"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="37" Column="3"/>
+        <Caret Line="39" Column="33" TopLine="22"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="36" Column="3"/>
+        <Caret Line="109" Column="5" TopLine="87"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="35" Column="3"/>
+        <Caret Line="110" Column="5" TopLine="90"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="36" Column="3"/>
+        <Caret Line="109" Column="25" TopLine="87"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="41" Column="3" TopLine="7"/>
+        <Caret Line="59" Column="23" TopLine="52"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="48" Column="3" TopLine="10"/>
+        <Caret Line="39" Column="27" TopLine="26"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="43" Column="3" TopLine="10"/>
+        <Caret Line="125" Column="50" TopLine="102"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="44" Column="3" TopLine="10"/>
+        <Caret Line="74" TopLine="60"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="45" Column="3" TopLine="10"/>
+        <Caret Line="134" Column="51" TopLine="116"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="46" Column="3" TopLine="10"/>
+        <Caret Line="139" Column="70" TopLine="117"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="47" Column="3" TopLine="10"/>
+        <Caret Line="145" Column="70" TopLine="123"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="48" Column="3" TopLine="10"/>
+        <Caret Line="109" Column="30" TopLine="102"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="49" Column="3" TopLine="11"/>
+        <Caret Line="68" Column="27" TopLine="63"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="50" Column="3" TopLine="12"/>
-      </Position>
-      <Position>
-        <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="51" Column="3" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="58" Column="3" TopLine="20"/>
-      </Position>
-      <Position>
-        <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="71" TopLine="33"/>
+        <Caret Line="98" Column="69" TopLine="80"/>
       </Position>
     </JumpHistory>
     <RunParams>

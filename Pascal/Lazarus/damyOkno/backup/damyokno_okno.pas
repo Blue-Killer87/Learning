@@ -5,7 +5,7 @@ unit damyokno_okno;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, ExtCtrls, nastaveni, damy;
 
 type
 
@@ -13,6 +13,7 @@ type
 
   TOkno = class(TForm)
     hlavnimenu: TMainMenu;
+    ImageList1: TImageList;
     MenuCelkovyPocet: TMenuItem;
     MenuOProgramu: TMenuItem;
     MenuNapoveda: TMenuItem;
@@ -23,15 +24,27 @@ type
     MenuNajdiDalsi: TMenuItem;
     MenuNova: TMenuItem;
     menuUloha: TMenuItem;
+    Panel1: TPanel;
     Separator1: TMenuItem;
     procedure FormCreate(Sender: TObject);
+    procedure MenuCelkovyPocetClick(Sender: TObject);
     procedure MenuKonecClick(Sender: TObject);
+    procedure MenuNajdiDalsiClick(Sender: TObject);
     procedure MenuNovaClick(Sender: TObject);
     procedure MenuOProgramuClick(Sender: TObject);
     procedure menuUlohaClick(Sender: TObject);
+    procedure MenuVychoziNastaveniClick(Sender: TObject);
+    procedure Panel1Paint(sender: TObject);
   private
+    var
+        resitel: TResitel;
+        jeResitel: Boolean;
+        jereseni: boolean;
+        deltax, deltay: integer;
 
-  public
+    procedure nakresliSachovnici(plocha:TCanvas; sirka, vyska: integer);
+    procedure nakresliDamy(plocha:TCanvas; sirka, vyska: integer);
+public
 
   end;
 
@@ -46,6 +59,15 @@ implementation
 
 procedure TOkno.FormCreate(Sender: TObject);
 begin
+    jeResitel:=False;
+    jereseni:=false;
+
+end;
+
+procedure TOkno.MenuCelkovyPocetClick(Sender: TObject);
+var
+  lokalniresite: TResitel;
+begin
 
 end;
 
@@ -54,9 +76,26 @@ begin
   Close;
 end;
 
+procedure TOkno.MenuNajdiDalsiClick(Sender: TObject);
+begin
+  if resitel.NajdiDalsiReseni then
+  begin
+       jereseni:= true;
+
+  end else begin
+      jereseni:=false;
+      resitel.free;
+      jeresitel := false;
+      Application.MessageBox('Další řešení neexistují', 'Upozornění');
+  end;
+  Repaint;
+end;
+
 procedure TOkno.MenuNovaClick(Sender: TObject);
 begin
-
+    resitel:=TResitel.Create(nastaveni.PocetDam);
+    jeResitel:=True;
+    nakreslisachovnici(Panel1.Canvas, Panel1.Width, Panel1.Height);
 end;
 
 procedure TOkno.MenuOProgramuClick(Sender: TObject);
@@ -69,6 +108,49 @@ begin
 
 end;
 
+procedure TOkno.MenuVychoziNastaveniClick(Sender: TObject);
+begin
+  nastaveni.VychoziNastaveni;
+end;
+
+procedure TOkno.Panel1Paint(sender: TObject);
+begin
+    if jeresitel then
+    begin
+         nakreslisachovnici(Panel1.Canvas, Panel1.Width, Panel1.Height);
+         if jereseni then
+         begin
+              nakresliDamy(panel1.canvas, Panel1.width, panel1.height);
+         end;
+    end;
+end;
+
+procedure TOkno.nakresliSachovnici(plocha: TCanvas; sirka, vyska: integer);
+var
+  i: integer;
+begin
+    deltax := sirka div Nastaveni.PocetDam;
+    deltay := vyska div Nastaveni.PocetDam;
+    plocha.pen.Width:=1;
+    plocha.pen.color:=nastaveni.barvacar;
+
+    for i := 0 to Nastaveni.pocetdam do
+    begin
+        plocha.Line(0, deltay*i, sirka, deltay*i);
+        plocha.Line(i*deltax,0,i*deltax, vyska);
+    end;
+end;
+
+procedure TOkno.nakresliDamy(plocha:TCanvas; sirka, vyska: integer);
+var i, j: integer;
+begin
+     plocha.Pen.width:=1;
+     plocha.pen.color := nastaveni.BarvaDam;
+     for i := 0 to nastaveni.PocetDam -1 do begin
+         j := resitel.Reseni[i];
+         plocha.Ellipse(i*deltax, j*deltay, (i+1)*deltay, (i+1)*deltax);
+     end;
+end;
 
 end.
 
