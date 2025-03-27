@@ -55,7 +55,9 @@ class HashTable:
         for i in data:
             if i.key == key:
                 self.table[index][iteration] = ""
+                self.size -= 1
             iteration += 1
+
                 
     def __str__(self):
         result = ""
