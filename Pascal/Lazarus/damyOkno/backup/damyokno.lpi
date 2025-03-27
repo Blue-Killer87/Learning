@@ -37,10 +37,15 @@
         <Filename Value="damyokno_okno.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Okno"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
         <Filename Value="nastaveni.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="damy/damy.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit>
     </Units>
@@ -52,6 +57,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="damy"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>

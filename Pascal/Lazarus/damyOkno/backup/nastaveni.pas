@@ -11,7 +11,17 @@ uses
 procedure setPocetDam(pocet: integer);
 function getPocetDam: integer;
 
-property PocetDam: integer read getPocetDam write setPocetDam;        )
+
+
+procedure setBarvaDam(barva: TColor);
+function getBarvaDam: Tcolor;
+
+procedure setBarvaCar(barva: Tcolor);
+function getBarvaCar: Tcolor;
+
+property PocetDam: integer read getPocetDam write setPocetDam;
+property BarvaDam: integer read getBarvaDam write setBarvaDam;
+property BarvaCar: integer read getBarvaCar write setBarvaCar;
 
 procedure VychoziNastaveni;
 
@@ -35,6 +45,16 @@ end;
 function getPocetDam: integer;
 begin
   result:=FpocetDam;
+end;
+
+function getBarvaDam: Tcolor;
+begin
+  result:=FbarvaDam;
+end;
+
+function getBarvaCar: Tcolor;
+begin
+  result:=FbarvaCar;
 end;
 
 procedure VychoziNastaveni;
