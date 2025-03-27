@@ -1,6 +1,3 @@
-# Na začátek bych rád řekl, že oproti svému minulému kódu jsem se pokusil zde implementovat rekurzní funkci na výpočet determinantu
-# Tedy počítám menší matice přes Laplaceův rozvoj rekurzí, narozdíl od úpravy na horní stupňovitý tvar. Je to o dost efektivnější
-# Ale je to pro mě první experiment s takovým druhem funkce, takže je možné, že tam budě nějaká obří začátečnická chyba.
 
 # Výpočet determinantu matice
 def determinant(matrix):
