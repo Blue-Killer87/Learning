@@ -48,6 +48,14 @@
         <Filename Value="damy/damy.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="dialognastaveni.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="OknoNastaveni"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="dialogNastaveni"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

@@ -16,7 +16,6 @@ class DivideNConquer:
             print(split)
             self.itemlist[split:] = ""
             self.find(value)
-
         else:
             print(split)
 
