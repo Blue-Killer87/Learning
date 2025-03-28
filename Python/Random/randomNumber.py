@@ -2,7 +2,6 @@ from random import *
 import math
 import time
 
-#O(n) = n + log(n)
 ############################################################
 
 x = time.time()*100000
@@ -55,7 +54,7 @@ class EntropyGen():
         self.randomNum = self.smallDigits[self.finaldigit]
         return self.randomNum        
 randomized = []
-R = 999999
+R = 1
 for i in range(R):
     try:
         randomized.append(EntropyGen().Randomize())
@@ -64,7 +63,7 @@ for i in range(R):
 
 print(randomized)
 random_len = len(randomized)
-print(f"Chybovost byla v rámci počtu instancí: {R-random_len}")
+#print(f"Weird errors: {R-random_len}")
 
 i=0
 offset_error = 0
@@ -74,8 +73,8 @@ while i < random_len-1:
         i += 1
     else:
         i += 1
-
-print(f"Počet po sobě jdoucích čísel je: {offset_error}")
-print(f"Procento náhodnosti: {(random_len-offset_error)/random_len*100}%")
+'''print(f"Number of numbers: {random_len}")
+print(f"Number of same numbers following each other: {offset_error}")
+print(f"Percentage of randomness: {(random_len-offset_error)/random_len*100}%")'''
 
         
