@@ -5,7 +5,8 @@ unit damyokno_okno;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, ExtCtrls, nastaveni, damy;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, ExtCtrls,
+  ComCtrls, nastaveni, damy, dialogNastaveni;
 
 type
 
@@ -26,6 +27,11 @@ type
     menuUloha: TMenuItem;
     Panel1: TPanel;
     Separator1: TMenuItem;
+    PanelNastroju: TToolBar;
+    TlacitkoNova: TToolButton;
+    TlacitkoDalsiReseni: TToolButton;
+    TlacitkoCelkem: TToolButton;
+    procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
     procedure FormCreate(Sender: TObject);
     procedure MenuCelkovyPocetClick(Sender: TObject);
     procedure MenuKonecClick(Sender: TObject);
@@ -33,9 +39,12 @@ type
     procedure MenuNovaClick(Sender: TObject);
     procedure MenuOProgramuClick(Sender: TObject);
     procedure menuUlohaClick(Sender: TObject);
+    procedure MenuUpravitClick(Sender: TObject);
     procedure MenuVychoziNastaveniClick(Sender: TObject);
     procedure Panel1Paint(sender: TObject);
-  private
+    procedure PanelNastrojuClick(Sender: TObject);
+
+private
     var
         resitel: TResitel;
         jeResitel: Boolean;
@@ -64,11 +73,30 @@ begin
 
 end;
 
+procedure TOkno.FormCloseQuery(Sender: TObject; var CanClose: Boolean);
+begin
+  if MessageDlg('Dotaz', 'Opravdu chcete ukončit program?', mtConfirmation, mbYesNo, 0) = mrNo then begin
+       CanClose:=False;
+  end;
+end;
+
 procedure TOkno.MenuCelkovyPocetClick(Sender: TObject);
 var
-  lokalniresite: TResitel;
-begin
+  lokalniresitel: TResitel;
+  zprava: string;
+const
+  text1: String = 'Úloha ';
+  text2: String = 'dam má ';
+  text3: String = 'řešení. #13#10Bylo třeba';
+  text4: String = ' pokusů o umístění dámy.';
 
+begin
+  lokalniresitel := TResitel.Create(nastaveni.PocetDam);
+  lokalniresitel.NajdiDalsiReseni;
+  zprava := text1+IntToStr(nastaveni.PocetDam)+text2+IntToStr(lokalniresitel.PocetNalezenychReseni)
+         + text3+IntToStr(lokalniresitel.PocetVolani)+text4;
+  MessageDlg('Celkový počet řešení', zprava, mtInformation, [mbOK], 0);
+  lokalniresitel.free;
 end;
 
 procedure TOkno.MenuKonecClick(Sender: TObject);
@@ -94,8 +122,8 @@ end;
 procedure TOkno.MenuNovaClick(Sender: TObject);
 begin
     resitel:=TResitel.Create(nastaveni.PocetDam);
-    jeResitel:=True;
-    nakreslisachovnici(Panel1.Canvas, Panel1.Width, Panel1.Height);
+    jeResitel:=true;
+
 end;
 
 procedure TOkno.MenuOProgramuClick(Sender: TObject);
@@ -106,6 +134,13 @@ end;
 procedure TOkno.menuUlohaClick(Sender: TObject);
 begin
 
+end;
+
+procedure TOkno.MenuUpravitClick(Sender: TObject);
+begin
+    if OknoNastaveni.ShowModal = mrOk then begin
+
+    end;
 end;
 
 procedure TOkno.MenuVychoziNastaveniClick(Sender: TObject);
@@ -123,6 +158,11 @@ begin
               nakresliDamy(panel1.canvas, Panel1.width, panel1.height);
          end;
     end;
+end;
+
+procedure TOkno.PanelNastrojuClick(Sender: TObject);
+begin
+
 end;
 
 procedure TOkno.nakresliSachovnici(plocha: TCanvas; sirka, vyska: integer);
@@ -143,12 +183,13 @@ end;
 
 procedure TOkno.nakresliDamy(plocha:TCanvas; sirka, vyska: integer);
 var i, j: integer;
+const delta =5;
 begin
      plocha.Pen.width:=1;
      plocha.pen.color := nastaveni.BarvaDam;
      for i := 0 to nastaveni.PocetDam -1 do begin
          j := resitel.Reseni[i];
-         plocha.Ellipse(i*deltax, j*deltay, (i+1)*deltay, (i+1)*deltax);
+         plocha.Ellipse(i*deltax + delta, j*deltay + delta, (i+1)*deltax - delta, (i+1)*deltay - delta);
      end;
 end;
 

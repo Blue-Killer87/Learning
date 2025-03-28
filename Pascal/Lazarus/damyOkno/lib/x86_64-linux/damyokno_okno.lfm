@@ -1,26 +1,58 @@
 object Okno: TOkno
-  Left = 1279
+  Left = 1539
   Height = 1031
-  Top = 2
-  Width = 946
+  Top = 10
+  Width = 631
   Caption = 'Okno'
   ClientHeight = 1031
-  ClientWidth = 946
+  ClientWidth = 631
   Menu = hlavnimenu
+  OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate
   LCLVersion = '3.8.0.0'
   object Panel1: TPanel
     Left = 0
-    Height = 1031
-    Top = 0
-    Width = 946
+    Height = 1005
+    Top = 26
+    Width = 631
     Align = alClient
     TabOrder = 0
+  end
+  object PanelNastroju: TToolBar
+    Left = 0
+    Height = 26
+    Top = 0
+    Width = 631
+    Caption = 'PanelNastroju'
+    Images = ImageList1
+    TabOrder = 1
+    OnClick = PanelNastrojuClick
+    object TlacitkoNova: TToolButton
+      Left = 1
+      Top = 2
+      Caption = 'TlacitkoNova'
+      ImageIndex = 0
+      OnClick = MenuNovaClick
+    end
+    object TlacitkoDalsiReseni: TToolButton
+      Left = 24
+      Top = 2
+      Caption = 'TlacitkoDalsiReseni'
+      ImageIndex = 1
+      OnClick = MenuNajdiDalsiClick
+    end
+    object TlacitkoCelkem: TToolButton
+      Left = 47
+      Top = 2
+      Caption = 'TlacitkoCelkem'
+      ImageIndex = 2
+      OnClick = MenuCelkovyPocetClick
+    end
   end
   object hlavnimenu: TMainMenu
     Images = ImageList1
     Left = 10
-    Top = 10
+    Top = 104
     object menuUloha: TMenuItem
       Caption = 'Úloha'
       OnClick = menuUlohaClick
@@ -51,6 +83,7 @@ object Okno: TOkno
       Caption = 'Nastavení'
       object MenuUpravit: TMenuItem
         Caption = 'Upravit...'
+        OnClick = MenuUpravitClick
       end
       object MenuVychoziNastaveni: TMenuItem
         Caption = 'Obnovit Výchozí'
@@ -66,8 +99,8 @@ object Okno: TOkno
     end
   end
   object ImageList1: TImageList
-    Left = 39
-    Top = 10
+    Left = 40
+    Top = 104
     Bitmap = {
       4C7A030000001000000010000000360600000000000078DA9D957B50D45514C7
       FD83A969263371C26C6AB450B312D36AB4F159063106C884818F4A5059109CF0
