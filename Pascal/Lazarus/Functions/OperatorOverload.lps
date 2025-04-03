@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="OperatorOverload.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="13" Y="16"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cpl.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="14"/>
+        <CursorPos X="48" Y="29"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="8">
+      <Position>
+        <Filename Value="cpl.pas"/>
+        <Caret Line="15" Column="33"/>
+      </Position>
+      <Position>
+        <Filename Value="OperatorOverload.lpr"/>
+        <Caret Line="13" Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="OperatorOverload.lpr"/>
+        <Caret Line="14" Column="9"/>
+      </Position>
+      <Position>
+        <Filename Value="cpl.pas"/>
+        <Caret Line="22" Column="23" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="cpl.pas"/>
+        <Caret Line="49" Column="23" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="cpl.pas"/>
+        <Caret Line="50" Column="6" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="cpl.pas"/>
+        <Caret Line="53" Column="5" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="cpl.pas"/>
+        <Caret Line="60" Column="21" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="OperatorOverload.lpr"/>
+        <Caret Line="14" Column="9"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

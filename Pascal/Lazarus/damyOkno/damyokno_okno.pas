@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, ExtCtrls,
-  ComCtrls, nastaveni, damy, dialogNastaveni;
+  ComCtrls, StdCtrls, nastaveni, damy, dialogNastaveni;
 
 type
 
@@ -15,6 +15,7 @@ type
   TOkno = class(TForm)
     hlavnimenu: TMainMenu;
     ImageList1: TImageList;
+    Label1: TLabel;
     MenuCelkovyPocet: TMenuItem;
     MenuOProgramu: TMenuItem;
     MenuNapoveda: TMenuItem;
@@ -26,13 +27,17 @@ type
     MenuNova: TMenuItem;
     menuUloha: TMenuItem;
     Panel1: TPanel;
+    ProgressBar1: TProgressBar;
     Separator1: TMenuItem;
     PanelNastroju: TToolBar;
+    StavovaRadka: TStatusBar;
+
     TlacitkoNova: TToolButton;
     TlacitkoDalsiReseni: TToolButton;
     TlacitkoCelkem: TToolButton;
     procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
     procedure FormCreate(Sender: TObject);
+    procedure Label1Click(Sender: TObject);
     procedure MenuCelkovyPocetClick(Sender: TObject);
     procedure MenuKonecClick(Sender: TObject);
     procedure MenuNajdiDalsiClick(Sender: TObject);
@@ -70,6 +75,11 @@ procedure TOkno.FormCreate(Sender: TObject);
 begin
     jeResitel:=False;
     jereseni:=false;
+
+end;
+
+procedure TOkno.Label1Click(Sender: TObject);
+begin
 
 end;
 
@@ -172,7 +182,7 @@ begin
     deltax := sirka div Nastaveni.PocetDam;
     deltay := vyska div Nastaveni.PocetDam;
     plocha.pen.Width:=1;
-    plocha.pen.color:=nastaveni.barvacar;
+    plocha.pen.color:= nastaveni.barvacar;
 
     for i := 0 to Nastaveni.pocetdam do
     begin

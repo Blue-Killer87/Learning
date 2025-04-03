@@ -11,7 +11,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
       </Unit>
       <Unit>
         <Filename Value="damyokno_okno.pas"/>
@@ -19,28 +19,28 @@
         <ComponentName Value="Okno"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="80"/>
-        <CursorPos X="65" Y="98"/>
-        <UsageCount Value="28"/>
+        <TopLine Value="153"/>
+        <CursorPos X="30" Y="185"/>
+        <UsageCount Value="29"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="nastaveni.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="4"/>
-        <TopLine Value="18"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
         <CursorPos X="26" Y="75"/>
-        <UsageCount Value="28"/>
+        <UsageCount Value="29"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="damy/damy.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="82"/>
-        <CursorPos Y="115"/>
-        <UsageCount Value="24"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="89"/>
+        <CursorPos X="29" Y="88"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -50,12 +50,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="dialogNastaveni"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="1"/>
         <TopLine Value="11"/>
-        <CursorPos X="5" Y="29"/>
-        <UsageCount Value="22"/>
+        <CursorPos X="32" Y="29"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="damy.pas"/>
@@ -74,50 +73,20 @@
       </Unit>
       <Unit>
         <Filename Value="/usr/lib/lazarus/lcl/include/messagedialogs.inc"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="150"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="180"/>
         <CursorPos X="10" Y="168"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/lib/lazarus/lcl/dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="28"/>
+        <UsageCount Value="10"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="28">
-      <Position>
-        <Filename Value="dialognastaveni.pas"/>
-        <Caret Line="19" Column="13" TopLine="7"/>
-      </Position>
-      <Position>
-        <Filename Value="dialognastaveni.pas"/>
-        <Caret Line="18" Column="13" TopLine="7"/>
-      </Position>
-      <Position>
-        <Filename Value="dialognastaveni.pas"/>
-        <Caret Line="19" Column="13" TopLine="7"/>
-      </Position>
-      <Position>
-        <Filename Value="dialognastaveni.pas"/>
-        <Caret Line="20" Column="13" TopLine="7"/>
-      </Position>
-      <Position>
-        <Filename Value="dialognastaveni.pas"/>
-        <Caret Line="47" TopLine="38"/>
-      </Position>
-      <Position>
-        <Filename Value="dialognastaveni.pas"/>
-        <Caret Line="22" Column="5" TopLine="11"/>
-      </Position>
-      <Position>
-        <Filename Value="dialognastaveni.pas"/>
-        <Caret Line="59" TopLine="39"/>
-      </Position>
-      <Position>
-        <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="153" Column="3" TopLine="61"/>
-      </Position>
-      <Position>
-        <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="154" Column="3" TopLine="132"/>
-      </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
         <Caret Line="153" Column="3" TopLine="131"/>
@@ -167,10 +136,6 @@
         <Caret Line="52" TopLine="38"/>
       </Position>
       <Position>
-        <Filename Value="dialognastaveni.pas"/>
-        <Caret Line="27" Column="5" TopLine="39"/>
-      </Position>
-      <Position>
         <Filename Value="damyokno_okno.pas"/>
         <Caret Line="98" Column="72" TopLine="85"/>
       </Position>
@@ -191,12 +156,52 @@
         <Caret Line="98" Column="72" TopLine="80"/>
       </Position>
       <Position>
-        <Filename Value="/usr/lib/lazarus/lcl/include/messagedialogs.inc"/>
-        <Caret Line="168" Column="10" TopLine="150"/>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="98" Column="70" TopLine="80"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="98" Column="75" TopLine="76"/>
+        <Caret Line="26" Column="41" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="32" Column="3" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="31" Column="3" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="37" Column="69" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="38" Column="69" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="39" Column="69" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="41" Column="69" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="83" Column="3" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="82" Column="3" TopLine="80"/>
+      </Position>
+      <Position>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="81" Column="3" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="damyokno_okno.pas"/>
+        <Caret Line="164" Column="20" TopLine="164"/>
       </Position>
     </JumpHistory>
     <RunParams>

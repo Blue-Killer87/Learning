@@ -1,20 +1,20 @@
 object Okno: TOkno
-  Left = 1539
+  Left = 644
   Height = 1031
   Top = 10
-  Width = 631
+  Width = 946
   Caption = 'Okno'
   ClientHeight = 1031
-  ClientWidth = 631
+  ClientWidth = 946
   Menu = hlavnimenu
   OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate
   LCLVersion = '3.8.0.0'
   object Panel1: TPanel
     Left = 0
-    Height = 1005
+    Height = 938
     Top = 26
-    Width = 631
+    Width = 946
     Align = alClient
     TabOrder = 0
   end
@@ -22,7 +22,7 @@ object Okno: TOkno
     Left = 0
     Height = 26
     Top = 0
-    Width = 631
+    Width = 946
     Caption = 'PanelNastroju'
     Images = ImageList1
     TabOrder = 1
@@ -48,6 +48,31 @@ object Okno: TOkno
       ImageIndex = 2
       OnClick = MenuCelkovyPocetClick
     end
+  end
+  object StavovaRadka: TStatusBar
+    Left = 0
+    Height = 47
+    Top = 984
+    Width = 946
+    AutoSize = False
+    Panels = <>
+  end
+  object ProgressBar1: TProgressBar
+    Left = 0
+    Height = 20
+    Top = 964
+    Width = 946
+    Align = alBottom
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 424
+    Height = 15
+    Top = 1000
+    Width = 80
+    Align = alCustom
+    Alignment = taCenter
+    Caption = 'Stav Výpočtu'
   end
   object hlavnimenu: TMainMenu
     Images = ImageList1

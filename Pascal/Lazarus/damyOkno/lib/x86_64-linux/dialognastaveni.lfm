@@ -2,29 +2,29 @@ object OknoNastaveni: TOknoNastaveni
   Left = 1443
   Height = 1031
   Top = 10
-  Width = 946
+  Width = 631
   Caption = 'Nastaveni'
   ClientHeight = 1031
-  ClientWidth = 946
+  ClientWidth = 631
   UseDockManager = True
   LCLVersion = '3.8.0.0'
   object PageControl1: TPageControl
     Left = 0
     Height = 1031
     Top = 0
-    Width = 946
-    ActivePage = menuBarva
+    Width = 631
+    ActivePage = menuPocetDam
     Align = alClient
-    TabIndex = 1
+    TabIndex = 0
     TabOrder = 0
     object menuPocetDam: TTabSheet
       Caption = 'Počet Dam'
       ClientHeight = 1002
-      ClientWidth = 942
+      ClientWidth = 627
       object volicPoctuDam: TListBox
-        Left = 400
+        Left = 272
         Height = 280
-        Top = 456
+        Top = 264
         Width = 88
         Items.Strings = (
           '1'
@@ -46,11 +46,11 @@ object OknoNastaveni: TOknoNastaveni
     object menuBarva: TTabSheet
       Caption = 'Barva'
       ClientHeight = 1002
-      ClientWidth = 942
+      ClientWidth = 627
       object panelBarvaDam: TPanel
-        Left = 448
+        Left = 320
         Height = 60
-        Top = 240
+        Top = 368
         Width = 64
         Color = clRed
         ParentBackground = False
@@ -58,9 +58,9 @@ object OknoNastaveni: TOknoNastaveni
         TabOrder = 0
       end
       object panelbarvacar: TPanel
-        Left = 448
+        Left = 320
         Height = 56
-        Top = 320
+        Top = 448
         Width = 66
         Color = clBlack
         ParentBackground = False
@@ -68,25 +68,25 @@ object OknoNastaveni: TOknoNastaveni
         TabOrder = 1
       end
       object LabelBarvaDam: TLabel
-        Left = 368
+        Left = 240
         Height = 15
-        Top = 264
+        Top = 392
         Width = 67
         Caption = 'Barva Dam'
       end
       object LabelBarvaCar: TLabel
-        Left = 374
+        Left = 246
         Height = 15
-        Top = 341
+        Top = 469
         Width = 60
         Caption = 'Barva Čar'
       end
     end
   end
   object TlacitkoOk: TButton
-    Left = 552
+    Left = 232
     Height = 49
-    Top = 600
+    Top = 624
     Width = 168
     Caption = 'OK'
     Default = True
@@ -94,9 +94,9 @@ object OknoNastaveni: TOknoNastaveni
     TabOrder = 1
   end
   object TlacitkoStorno: TButton
-    Left = 552
+    Left = 232
     Height = 49
-    Top = 688
+    Top = 712
     Width = 168
     Cancel = True
     Caption = 'Cancel'

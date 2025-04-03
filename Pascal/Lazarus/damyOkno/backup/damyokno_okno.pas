@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, ExtCtrls,
-  ComCtrls, nastaveni, damy, dialogNastaveni;
+  ComCtrls, StdCtrls, nastaveni, damy, dialogNastaveni;
 
 type
 
@@ -15,6 +15,7 @@ type
   TOkno = class(TForm)
     hlavnimenu: TMainMenu;
     ImageList1: TImageList;
+    Label1: TLabel;
     MenuCelkovyPocet: TMenuItem;
     MenuOProgramu: TMenuItem;
     MenuNapoveda: TMenuItem;
@@ -26,13 +27,17 @@ type
     MenuNova: TMenuItem;
     menuUloha: TMenuItem;
     Panel1: TPanel;
+    ProgressBar1: TProgressBar;
     Separator1: TMenuItem;
     PanelNastroju: TToolBar;
+    StavovaRadka: TStatusBar;
+
     TlacitkoNova: TToolButton;
     TlacitkoDalsiReseni: TToolButton;
     TlacitkoCelkem: TToolButton;
     procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
     procedure FormCreate(Sender: TObject);
+    procedure Label1Click(Sender: TObject);
     procedure MenuCelkovyPocetClick(Sender: TObject);
     procedure MenuKonecClick(Sender: TObject);
     procedure MenuNajdiDalsiClick(Sender: TObject);
@@ -73,6 +78,11 @@ begin
 
 end;
 
+procedure TOkno.Label1Click(Sender: TObject);
+begin
+
+end;
+
 procedure TOkno.FormCloseQuery(Sender: TObject; var CanClose: Boolean);
 begin
   if MessageDlg('Dotaz', 'Opravdu chcete ukončit program?', mtConfirmation, mbYesNo, 0) = mrNo then begin
@@ -95,7 +105,7 @@ begin
   lokalniresitel.NajdiDalsiReseni;
   zprava := text1+IntToStr(nastaveni.PocetDam)+text2+IntToStr(lokalniresitel.PocetNalezenychReseni)
          + text3+IntToStr(lokalniresitel.PocetVolani)+text4;
-  MessageDlg('Celkový počet řešení', zprava, mtInformation, mbOK);
+  MessageDlg('Celkový počet řešení', zprava, mtInformation, [mbOK], 0);
   lokalniresitel.free;
 end;
 
