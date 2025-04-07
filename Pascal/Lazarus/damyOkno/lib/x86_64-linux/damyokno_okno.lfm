@@ -3,6 +3,8 @@ object Okno: TOkno
   Height = 1031
   Top = 10
   Width = 946
+  HelpType = htKeyword
+  HelpKeyword = 'HTML/index.html'
   Caption = 'Okno'
   ClientHeight = 1031
   ClientWidth = 946
@@ -379,6 +381,7 @@ object Okno: TOkno
     Width = 946
     Align = alClient
     TabOrder = 0
+    OnClick = Panel1Click
   end
   object PanelNastroju: TToolBar
     Left = 0
@@ -468,6 +471,7 @@ object Okno: TOkno
     end
     object MenuNastaveni: TMenuItem
       Caption = 'Nastavení'
+      OnClick = MenuNastaveniClick
       object MenuUpravit: TMenuItem
         Caption = 'Upravit...'
         OnClick = MenuUpravitClick
@@ -482,6 +486,10 @@ object Okno: TOkno
       object MenuOProgramu: TMenuItem
         Caption = 'O Programu...'
         OnClick = MenuOProgramuClick
+      end
+      object MenuIndex: TMenuItem
+        Caption = 'Index'
+        OnClick = MenuIndexClick
       end
     end
   end
@@ -541,5 +549,18 @@ object Okno: TOkno
       A53DA3F7979E3D272787CD2FFD9E9E9EFEC4FCD27AD17A8C757FA8680FA946DF
       1FCA52BDE8FDFD0FB573BACA
     }
+  end
+  object DatabazeNapovedy: THTMLHelpDatabase
+    BaseURL = 'file://html/'
+    AutoRegister = True
+    KeywordPrefix = 'HTML/'
+    Left = 68
+    Top = 104
+  end
+  object prohlizecnapovedy: THTMLBrowserHelpViewer
+    BrowserParams = '%s'
+    AutoRegister = True
+    Left = 97
+    Top = 104
   end
 end

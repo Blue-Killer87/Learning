@@ -7,7 +7,6 @@
       <Unit>
         <Filename Value="OperatorOverload.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <CursorPos X="13" Y="16"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
@@ -15,10 +14,10 @@
       <Unit>
         <Filename Value="cpl.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="34"/>
-        <CursorPos X="48" Y="66"/>
-        <FoldState Value=" T3S04+"/>
+        <TopLine Value="14"/>
+        <CursorPos X="48" Y="29"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
