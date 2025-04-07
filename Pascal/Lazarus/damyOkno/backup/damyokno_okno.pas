@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, ExtCtrls,
-  ComCtrls, StdCtrls, nastaveni, damy, dialogNastaveni;
+  ComCtrls, StdCtrls, LazHelpHTML, nastaveni, damy, dialogNastaveni, LCLIntf;
 
 type
 
@@ -14,6 +14,9 @@ type
 
   TOkno = class(TForm)
     hlavnimenu: TMainMenu;
+    MenuIndex: TMenuItem;
+    prohlizecnapovedy: THTMLBrowserHelpViewer;
+    DatabazeNapovedy: THTMLHelpDatabase;
     ImageList1: TImageList;
     Label1: TLabel;
     MenuCelkovyPocet: TMenuItem;
@@ -39,13 +42,16 @@ type
     procedure FormCreate(Sender: TObject);
     procedure Label1Click(Sender: TObject);
     procedure MenuCelkovyPocetClick(Sender: TObject);
+    procedure MenuIndexClick(Sender: TObject);
     procedure MenuKonecClick(Sender: TObject);
     procedure MenuNajdiDalsiClick(Sender: TObject);
+    procedure MenuNastaveniClick(Sender: TObject);
     procedure MenuNovaClick(Sender: TObject);
     procedure MenuOProgramuClick(Sender: TObject);
     procedure menuUlohaClick(Sender: TObject);
     procedure MenuUpravitClick(Sender: TObject);
     procedure MenuVychoziNastaveniClick(Sender: TObject);
+    procedure Panel1Click(Sender: TObject);
     procedure Panel1Paint(sender: TObject);
     procedure PanelNastrojuClick(Sender: TObject);
 
@@ -109,6 +115,11 @@ begin
   lokalniresitel.free;
 end;
 
+procedure TOkno.MenuIndexClick(Sender: TObject);
+begin
+  OpenURL('file:///home/blue/Prog/Learning/Pascal/Lazarus/damyOkno/html/index.html');
+end;
+
 procedure TOkno.MenuKonecClick(Sender: TObject);
 begin
   Close;
@@ -127,6 +138,11 @@ begin
       Application.MessageBox('Další řešení neexistují', 'Upozornění');
   end;
   Repaint;
+end;
+
+procedure TOkno.MenuNastaveniClick(Sender: TObject);
+begin
+
 end;
 
 procedure TOkno.MenuNovaClick(Sender: TObject);
@@ -158,6 +174,11 @@ begin
   nastaveni.VychoziNastaveni;
 end;
 
+procedure TOkno.Panel1Click(Sender: TObject);
+begin
+
+end;
+
 procedure TOkno.Panel1Paint(sender: TObject);
 begin
     if jeresitel then
@@ -182,7 +203,7 @@ begin
     deltax := sirka div Nastaveni.PocetDam;
     deltay := vyska div Nastaveni.PocetDam;
     plocha.pen.Width:=1;
-    plocha.pen.color:=nastaveni.barvacar;
+    plocha.pen.color:= nastaveni.barvacar;
 
     for i := 0 to Nastaveni.pocetdam do
     begin
