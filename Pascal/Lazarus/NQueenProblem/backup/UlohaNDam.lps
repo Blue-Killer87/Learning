@@ -7,7 +7,7 @@
       <Unit>
         <Filename Value="UlohaNDam.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="22"/>
       </Unit>
       <Unit>
         <Filename Value="okno.pas"/>
@@ -16,8 +16,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Okno"/>
-        <IsVisibleTab Value="True"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="170"/>
+        <CursorPos X="48" Y="197"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -25,7 +26,9 @@
         <Filename Value="nastaveni.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Nastaveni"/>
-        <UsageCount Value="20"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="dialognastaveniu.pas"/>
@@ -34,10 +37,56 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="DialogNastaveniU"/>
-        <UsageCount Value="20"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="70"/>
+        <CursorPos X="34" Y="96"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory HistoryIndex="9">
+      <Position>
+        <Filename Value="dialognastaveniu.pas"/>
+        <Caret Line="91" Column="29" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="dialognastaveniu.pas"/>
+        <Caret Line="104" Column="35" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="dialognastaveniu.pas"/>
+        <Caret Line="93" Column="36" TopLine="70"/>
+      </Position>
+      <Position>
+        <Filename Value="dialognastaveniu.pas"/>
+        <Caret Line="95" Column="16" TopLine="69"/>
+      </Position>
+      <Position>
+        <Filename Value="dialognastaveniu.pas"/>
+        <Caret Line="40" Column="53" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="okno.pas"/>
+        <Caret Line="211" Column="17" TopLine="193"/>
+      </Position>
+      <Position>
+        <Filename Value="okno.pas"/>
+        <Caret Line="218" Column="17" TopLine="200"/>
+      </Position>
+      <Position>
+        <Filename Value="okno.pas"/>
+        <Caret Line="197" Column="48" TopLine="170"/>
+      </Position>
+      <Position>
+        <Filename Value="dialognastaveniu.pas"/>
+        <Caret Line="40" Column="40" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="dialognastaveniu.pas"/>
+        <Caret Line="93" Column="16" TopLine="70"/>
+      </Position>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>

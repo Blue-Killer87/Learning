@@ -205,8 +205,11 @@ begin
 end;
 
 procedure TOknoProgramu.menuIndexClick(Sender: TObject);
+var path: string;
 begin
-  ShowHelpOrErrorForKeyword('', 'HTML/index.htm');
+  Path:= ExtractFilePath(Application.ExeName) + 'html/index.html'
+  openUrl(path);
+
 end;
 
 procedure TOknoProgramu.NakresliSachovnici(Platno: TCanvas; sirka, vyska: integer);
