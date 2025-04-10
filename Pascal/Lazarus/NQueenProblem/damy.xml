@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nastaveni>
+  <pocetDam pocet="10"/>
+  <barvy>
+    <barvaDam>16776960</barvaDam>
+    <barvaCar>0</barvaCar>
+  </barvy>
+</nastaveni>
