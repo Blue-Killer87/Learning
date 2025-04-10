@@ -37,6 +37,7 @@ type
     function getBarvaDam: TColor;
     procedure setBarvaCar(barva: TColor);
     function getBarvaCar: TColor;
+    procedure zmenabarvy(panel: Tpanel; txt:string);
   public
     property PocetDam: integer read getPocetDam write setPocetDam;
     property BarvaDam: TColor read getBarvaDam write setBarvaDam;
@@ -84,25 +85,22 @@ end;
 
 procedure TDialogNastaveni.tlacitkoZmenBarvuDamClick(Sender: TObject);
 begin
-   self.dialogBarvy.Title:='Zvolte barvu dam';
-   self.dialogBarvy.Color:=Nastaveni.BarvaDam;
-   if dialogBarvy.Execute then
-   begin
-     self.panelBarvaDam.Color:=self.dialogBarvy.Color;
-   end;
+   zmenaBarvy(Tpanel.BarvyDam, 'dam');
 end;
 
 procedure TDialogNastaveni.TlacitkoZmenBarvuCarClick(Sender: TObject);
 begin
-   self.dialogBarvy.Title:='Zvolte barvu čar šachovnice';
-   self.dialogBarvy.Color:=Nastaveni.BarvaCar;
-   if dialogBarvy.Execute then
-   begin
-     self.panelBarvaCar.Color:=self.dialogBarvy.Color;
-   end;
+   zmenaBarvy(Tpanel.BarvyDam, 'čar');
 end;
 
-
+procedure TOkno.zmenaBarvy(panel: Tpanel; txt:string);
+begin
+   self.dialogBarvy.Title:='Zvolte barvu ', txt;
+   if dialogBarvy.Execute then
+   begin
+     panel.Color:=dialogBarvy.Color;
+   end;
+end;
 
 
 end.

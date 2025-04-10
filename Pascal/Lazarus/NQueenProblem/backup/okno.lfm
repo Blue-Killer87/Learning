@@ -1,13 +1,13 @@
 object OknoProgramu: TOknoProgramu
   Left = 1141
-  Height = 288
+  Height = 1031
   Top = 144
-  Width = 331
+  Width = 946
   HelpType = htKeyword
   HelpKeyword = 'HTML/index.htm'
   Caption = 'Úloha N dam'
-  ClientHeight = 268
-  ClientWidth = 331
+  ClientHeight = 1031
+  ClientWidth = 946
   Icon.Data = {
     EE2C00000000010003003030000001001800A81C000036000000202000000100
     1800A80C0000DE1C000010100000010018006803000086290000280000003000
@@ -372,12 +372,12 @@ object OknoProgramu: TOknoProgramu
   }
   Menu = nabidka
   OnCloseQuery = FormCloseQuery
-  LCLVersion = '2.2.6.0'
+  LCLVersion = '3.8.0.0'
   object panelNastroju: TToolBar
     Left = 0
     Height = 26
     Top = 0
-    Width = 331
+    Width = 946
     Caption = 'panelNastroju'
     Images = seznamObrazku
     TabOrder = 0
@@ -416,18 +416,18 @@ object OknoProgramu: TOknoProgramu
   end
   object kresliciPanel: TPanel
     Left = 0
-    Height = 219
+    Height = 983
     Top = 26
-    Width = 331
+    Width = 946
     Align = alClient
     TabOrder = 1
     OnPaint = kresliciPanelPaint
   end
   object StatusBar1: TStatusBar
     Left = 0
-    Height = 23
-    Top = 245
-    Width = 331
+    Height = 22
+    Top = 1009
+    Width = 946
     Panels = <>
   end
   object nabidka: TMainMenu

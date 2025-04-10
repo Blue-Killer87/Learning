@@ -16,6 +16,7 @@ type
     databazeNapovedy: THTMLHelpDatabase;
     prohlizecNapovedy: THTMLBrowserHelpViewer;
     menuIndex: TMenuItem;
+    casovac: TTimer;
     type
        TPocetCelkem = class(TThread)
          procento: integer;
@@ -48,6 +49,7 @@ type
     tlacitkoNovaUloha: TToolButton;
     tlacitkoDalsiReseni: TToolButton;
     tlacitkoCekovyPocet: TToolButton;
+    procedure casovacTimer(Sender: TObject);
     procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
     procedure kresliciPanelPaint(Sender: TObject);
     procedure menuCelkovyPocetClick(Sender: TObject);
@@ -189,6 +191,17 @@ begin
   end;
 end;
 
+procedure TOknoProgramu.casovacTimer(Sender: TObject);
+begin
+  jeReseni:=True;
+  if not resitel.NajdiDalsiReseni then do begin
+    resitel.free;
+    resitel := Tresitel.create(nastaveni.PocetDam);
+    resitel.NajdiDalsiReseni;
+  end;
+  Repaint;
+end;
+
 procedure TOknoProgramu.menuDalsiReseniClick(Sender: TObject);
 begin
   if resitel.NajdiDalsiReseni then
@@ -205,8 +218,11 @@ begin
 end;
 
 procedure TOknoProgramu.menuIndexClick(Sender: TObject);
+var path: string;
 begin
-  ShowHelpOrErrorForKeyword('', 'HTML/index.htm');
+  Path:= ExtractFilePath(Application.ExeName) + 'html/index.html'
+  openUrl(path);
+
 end;
 
 procedure TOknoProgramu.NakresliSachovnici(Platno: TCanvas; sirka, vyska: integer);

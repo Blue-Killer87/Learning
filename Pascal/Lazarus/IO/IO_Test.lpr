@@ -33,9 +33,42 @@ begin
      close(f);
 end;
 
+procedure aktualizace(jmeno: string);
+var
+    f: file of integer;
+    i: integer;
+    pos: integer;
+begin
+    assign(f, jmeno);
+    reset(f);
+    while not eof(f) do begin
+      read(f, i);
+      if odd(i) then begin
+        i := 2*i;
+        pos:=filepos(f);
+        seek(f, pos-1);
+        write(f,i);
+      end;
+
+    end;
+    close(f);
+end;
+
+var
+    x: integer = 15;
+    y: real = 321.1568;
+
+
 begin
    zapis(jmeno);
    cteni(jmeno);
+   writeln;
+   aktualizace(jmeno);
+   cteni(jmeno);
+   writeln;
+   write('bylo tam', x:15, ' lidí');
+   writeln;
+   write('Je to ', y:5:3, ' miligramů');
  end.
 
 

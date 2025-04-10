@@ -553,4 +553,11 @@ object OknoProgramu: TOknoProgramu
     Left = 85
     Top = 63
   end
+  object casovac: TTimer
+    Enabled = False
+    Interval = 500
+    OnTimer = casovacTimer
+    Left = 85
+    Top = 272
+  end
 end

@@ -2,4 +2,5 @@
 <CONFIG>
   <Compiler Value="/usr/bin/fpc" Date="1714586784"/>
   <Params Value=" -MObjFPC -Scghi -Cg -O1 -gw3 -gl -l -vewnhibq -Fi/home/blue/Prog/Learning/Pascal/Lazarus/oop/lib/x86_64-linux -Fu/home/blue/Prog/Learning/Pascal/Lazarus/oop/ -FU/home/blue/Prog/Learning/Pascal/Lazarus/oop/lib/x86_64-linux/ -FE/home/blue/Prog/Learning/Pascal/Lazarus/oop/ -o/home/blue/Prog/Learning/Pascal/Lazarus/oop/listGeneric listGeneric.lpr"/>
+  <Complete Value="False"/>
 </CONFIG>
