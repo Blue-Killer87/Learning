@@ -9,8 +9,10 @@ def Input():
     field = []
     for i in range(size):
         vector = []
-        element = input(f'Specify {i+1}. vector ({size} elements sepparate by space): ')
+        element = input(f'Specify {i+1}. vector ({size} elements sepparated by space): ')
         vector = element.split()
+        while len(vector) != size:
+            element = input(f'Specify {i+1}. vector ({size} elements sepparated by space): ')
         index = 0
         for i in vector:
             try:
