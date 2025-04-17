@@ -14,9 +14,15 @@
       <Unit>
         <Filename Value="dodavatel.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="22" Y="8"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="odberatel.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
@@ -27,7 +33,7 @@
     <JumpHistory>
       <Position>
         <Filename Value="dodavatel.pas"/>
-        <Caret Line="8" Column="3"/>
+        <Caret Line="8" Column="22"/>
       </Position>
     </JumpHistory>
     <RunParams>

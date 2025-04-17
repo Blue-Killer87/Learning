@@ -14,6 +14,7 @@
       <Unit>
         <Filename Value="dodavatel.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="22" Y="8"/>
         <UsageCount Value="20"/>
@@ -23,6 +24,7 @@
         <Filename Value="odberatel.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="2"/>
+        <CursorPos Y="9"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
