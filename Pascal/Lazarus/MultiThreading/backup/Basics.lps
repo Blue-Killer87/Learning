@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Basics.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="14"/>
+        <CursorPos X="13" Y="44"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <OtherDefines Count="1">
+      <Define0 Value="UseCThreads"/>
+    </OtherDefines>
+    <JumpHistory HistoryIndex="5">
+      <Position>
+        <Filename Value="Basics.lpr"/>
+        <Caret Line="8" Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="Basics.lpr"/>
+        <Caret Line="32" Column="28"/>
+      </Position>
+      <Position>
+        <Filename Value="Basics.lpr"/>
+        <Caret Line="16" Column="40"/>
+      </Position>
+      <Position>
+        <Filename Value="Basics.lpr"/>
+        <Caret Line="22" Column="26"/>
+      </Position>
+      <Position>
+        <Filename Value="Basics.lpr"/>
+        <Caret Line="43" Column="10" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="Basics.lpr"/>
+        <Caret Line="3" Column="14"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
