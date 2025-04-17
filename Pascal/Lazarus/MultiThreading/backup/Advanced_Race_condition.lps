@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Advanced_Race_condition.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="22" Y="18"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="damy.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../damyOkno/damy/damy.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="90"/>
+        <CursorPos X="3" Y="111"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <OtherDefines Count="1">
+      <Define0 Value="UseCThreads"/>
+    </OtherDefines>
+    <JumpHistory HistoryIndex="6">
+      <Position>
+        <Filename Value="Advanced_Race_condition.lpr"/>
+        <Caret Line="5" Column="28"/>
+      </Position>
+      <Position>
+        <Filename Value="Advanced_Race_condition.lpr"/>
+        <Caret Line="32" Column="7"/>
+      </Position>
+      <Position>
+        <Filename Value="Advanced_Race_condition.lpr"/>
+        <Caret Line="19" Column="28" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="Advanced_Race_condition.lpr"/>
+        <Caret Line="33" Column="41" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="Advanced_Race_condition.lpr"/>
+        <Caret Line="34" Column="3" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="Advanced_Race_condition.lpr"/>
+        <Caret Line="2" Column="34"/>
+      </Position>
+      <Position>
+        <Filename Value="../damyOkno/damy/damy.pas"/>
+        <Caret Line="113" Column="37" TopLine="87"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
