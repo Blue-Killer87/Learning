@@ -26,7 +26,7 @@ procedure TOdberatel.Execute;
 begin
     while not terminated do
     begin
-        writeln(prepravka.text);
+        writeln(odberatel.text);
         Sleep(10);
     end;
 end;

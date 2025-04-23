@@ -107,8 +107,6 @@ begin
     if i < N - 1 then mezera := ', ' else mezera := '';
     write(FReseni[i], mezera);
   end;
-
-
   writeln(')');}
   for i := 0 to N -1 do begin
       if i < N - 1 then mezera := ', ' else mezera := '';
