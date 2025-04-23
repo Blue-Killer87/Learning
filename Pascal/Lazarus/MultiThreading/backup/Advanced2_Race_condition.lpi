@@ -32,6 +32,19 @@
         <Filename Value="dodavatel.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="odberatel.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="prepravka.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ender.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Ender"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
