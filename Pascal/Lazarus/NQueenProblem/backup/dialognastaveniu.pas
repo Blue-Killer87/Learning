@@ -93,7 +93,7 @@ begin
    zmenaBarvy(Tpanel.BarvyDam, 'čar');
 end;
 
-procedure TOkno.zmenaBarvy(panel; Tpanel; txt:string);
+procedure TOkno.zmenaBarvy(panel: Tpanel; txt:string);
 begin
    self.dialogBarvy.Title:='Zvolte barvu ', txt;
    if dialogBarvy.Execute then

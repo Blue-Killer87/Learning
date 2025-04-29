@@ -19,7 +19,6 @@
         <ComponentName Value="Okno"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <TopLine Value="103"/>
         <CursorPos X="83" Y="120"/>
         <UsageCount Value="30"/>
@@ -37,9 +36,10 @@
       <Unit>
         <Filename Value="damy/damy.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="89"/>
-        <CursorPos X="29" Y="88"/>
+        <TopLine Value="106"/>
+        <CursorPos X="28" Y="144"/>
         <UsageCount Value="26"/>
         <Loaded Value="True"/>
       </Unit>
@@ -201,7 +201,7 @@
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="120" Column="11" TopLine="103"/>
+        <Caret Line="120" Column="83" TopLine="103"/>
       </Position>
     </JumpHistory>
     <RunParams>
