@@ -86,7 +86,7 @@
         <UsageCount Value="10"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
+    <JumpHistory HistoryIndex="28">
       <Position>
         <Filename Value="dialognastaveni.pas"/>
         <Caret Line="29" Column="5" TopLine="11"/>
@@ -198,10 +198,6 @@
       <Position>
         <Filename Value="damyokno_okno.pas"/>
         <Caret Line="159" TopLine="143"/>
-      </Position>
-      <Position>
-        <Filename Value="damyokno_okno.pas"/>
-        <Caret Line="9" Column="77" TopLine="52"/>
       </Position>
       <Position>
         <Filename Value="damyokno_okno.pas"/>

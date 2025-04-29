@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1714586784"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -gw3 -gl -l -vewnhibq -Fi/home/blue/Prog/Learning/Pascal/Lazarus/MultiThreading/Timer/lib/x86_64-linux -Fu/home/blue/Prog/Learning/Pascal/Lazarus/MultiThreading/Timer/ -FU/home/blue/Prog/Learning/Pascal/Lazarus/MultiThreading/Timer/lib/x86_64-linux/ -FE/home/blue/Prog/Learning/Pascal/Lazarus/MultiThreading/Timer/ -o/home/blue/Prog/Learning/Pascal/Lazarus/MultiThreading/Timer/timer -dUseCThread timer.lpr"/>
+</CONFIG>

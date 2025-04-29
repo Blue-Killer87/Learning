@@ -32,6 +32,7 @@ def Dijkstra(start:int, n:int, graph):
     for i in range(1,n):
         shortest = min_distance(distance, known, n)
         known[shortest] = True
+        Q
         for i in range(n):
             if known[i] == True:
                 continue

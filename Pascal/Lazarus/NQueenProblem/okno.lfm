@@ -2,12 +2,12 @@ object OknoProgramu: TOknoProgramu
   Left = 1141
   Height = 1031
   Top = 144
-  Width = 946
+  Width = 631
   HelpType = htKeyword
   HelpKeyword = 'HTML/index.htm'
   Caption = 'Úloha N dam'
   ClientHeight = 1031
-  ClientWidth = 946
+  ClientWidth = 631
   Icon.Data = {
     EE2C00000000010003003030000001001800A81C000036000000202000000100
     1800A80C0000DE1C000010100000010018006803000086290000280000003000
@@ -377,7 +377,7 @@ object OknoProgramu: TOknoProgramu
     Left = 0
     Height = 26
     Top = 0
-    Width = 946
+    Width = 631
     Caption = 'panelNastroju'
     Images = seznamObrazku
     TabOrder = 0
@@ -418,7 +418,7 @@ object OknoProgramu: TOknoProgramu
     Left = 0
     Height = 983
     Top = 26
-    Width = 946
+    Width = 631
     Align = alClient
     TabOrder = 1
     OnPaint = kresliciPanelPaint
@@ -427,7 +427,7 @@ object OknoProgramu: TOknoProgramu
     Left = 0
     Height = 22
     Top = 1009
-    Width = 946
+    Width = 631
     Panels = <>
   end
   object nabidka: TMainMenu
