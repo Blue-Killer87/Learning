@@ -91,7 +91,6 @@ def project(u, v, G):
 def subtract(v, w):
     return [vi - wi for vi, wi in zip(v, w)]
 
-
 # Gram-Schmidtův ortogonalizační proces
 # Využívá předchozích funkcí, takže je relativně prostorově úsporný 
 # Každý vektor očistí od složek ve směru předchozích ortogonálních vektorů.
