@@ -93,7 +93,7 @@ class Map:
 
 
 m = Map()
-m.add_single_connection("A", "C", 10)
+m.add_single_connection("A", "C", 7)
 m.add_single_connection("A", "B", 8)
 m.add_single_connection("B", "C", 5)
 m.add_single_connection("D", "C", 8)
