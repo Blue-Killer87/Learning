@@ -13,7 +13,8 @@ class Map:
         output=None
         minimum = self.default
         
-        for i in range
+        for i in range:
+            pass
 
         return output
 
