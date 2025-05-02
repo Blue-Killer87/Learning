@@ -32,7 +32,6 @@ class Map:
                 return True
         return False
 
-
     def add_single_connection(self, start:str, end:str, dist:float):
         new_thread = dict(previous=start, destination=end, distance=dist, visited=False)
         self.graph.append(new_thread)
@@ -53,8 +52,9 @@ class Map:
         for i in range(self.lenght):
             shortest = self.min_distance(graph_copy)
             shortest_dest = graph_copy[shortest].get("destination")
-            if graph_copy[shortest].get("distance") < self.distance[shortest_dest]:
-                self.distance[shortest_dest] = graph_copy[shortest].get("distance")
+            previous = graph_copy[shortest].get("previous")
+            if graph_copy[shortest].get("distance")+self.distance[previous] < self.distance[shortest_dest]:
+                self.distance[shortest_dest] = graph_copy[shortest].get("distance")+self.distance[previous]
             graph_copy[shortest].update(visited= True)
 
         furthest_point = end
@@ -93,7 +93,7 @@ class Map:
 
 
 m = Map()
-m.add_single_connection("A", "C", 7)
+m.add_single_connection("A", "C", 9)
 m.add_single_connection("A", "B", 8)
 m.add_single_connection("B", "C", 5)
 m.add_single_connection("D", "C", 8)
