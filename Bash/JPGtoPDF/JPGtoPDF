@@ -1,0 +1,28 @@
+#!/bin/bash
+
+
+# This script converts JPG files into PDF. Make sure to have img2pdf installed
+# usage: ./JPGtoPDF img1.jpg img2.jpg img3.jpg output.pdf
+
+
+# Check if at least two arguments are passed (at least one JPG and one output PDF)
+if [ "$#" -lt 2 ]; then
+    echo "Usage: $0 img1.jpg [img2.jpg ...] output.pdf"
+    exit 1
+fi
+
+# Extract the last argument as output filename
+output_pdf="${@: -1}"
+
+# Collect all arguments except the last one as input JPG files
+input_images=("${@:1:$#-1}")
+
+# Check if img2pdf is installed
+if ! command -v img2pdf &> /dev/null; then
+    echo "Error: img2pdf is not installed. Install it with: pip install img2pdf"
+    exit 1
+fi
+
+# Convert the images to a PDF with no recompression
+img2pdf "${input_images[@]}" -o "$output_pdf"
+
