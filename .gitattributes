@@ -5,5 +5,5 @@
 *.Po linguist-language=text
 *.am linguist-language=text
 *.in linguist-language=text
-*.m4 linguist-language=shell
-*.status linguist-language=shell
+*.m4 linguist-language=text
+*.status linguist-language=text
