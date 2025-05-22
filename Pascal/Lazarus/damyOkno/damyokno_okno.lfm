@@ -2,12 +2,12 @@ object Okno: TOkno
   Left = 644
   Height = 1031
   Top = 10
-  Width = 946
+  Width = 627
   HelpType = htKeyword
   HelpKeyword = 'HTML/index.html'
   Caption = 'Okno'
   ClientHeight = 1031
-  ClientWidth = 946
+  ClientWidth = 627
   Icon.Data = {
     EE2C00000000010003003030000001001800A81C000036000000202000000100
     1800A80C0000DE1C000010100000010018006803000086290000280000003000
@@ -371,14 +371,14 @@ object Okno: TOkno
     00000003D03300030000C01F880FFCFF697A
   }
   Menu = hlavnimenu
+  LCLVersion = '4.0.0.4'
   OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate
-  LCLVersion = '3.8.0.0'
   object Panel1: TPanel
     Left = 0
     Height = 938
     Top = 26
-    Width = 946
+    Width = 627
     Align = alClient
     TabOrder = 0
     OnClick = Panel1Click
@@ -387,7 +387,7 @@ object Okno: TOkno
     Left = 0
     Height = 26
     Top = 0
-    Width = 946
+    Width = 627
     Caption = 'PanelNastroju'
     Images = ImageList1
     TabOrder = 1
@@ -418,7 +418,7 @@ object Okno: TOkno
     Left = 0
     Height = 47
     Top = 984
-    Width = 946
+    Width = 627
     AutoSize = False
     Panels = <>
   end
@@ -426,7 +426,7 @@ object Okno: TOkno
     Left = 0
     Height = 20
     Top = 964
-    Width = 946
+    Width = 627
     Align = alBottom
     TabOrder = 3
   end
@@ -434,7 +434,7 @@ object Okno: TOkno
     Left = 304
     Height = 15
     Top = 1000
-    Width = 399
+    Width = 80
     Alignment = taCenter
     Anchors = [akTop, akLeft, akRight, akBottom]
     Caption = 'Stav Výpočtu'

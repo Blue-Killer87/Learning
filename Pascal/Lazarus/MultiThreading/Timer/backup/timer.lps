@@ -8,8 +8,8 @@
         <Filename Value="timer.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="15"/>
-        <CursorPos X="24" Y="35"/>
+        <TopLine Value="49"/>
+        <CursorPos X="9" Y="83"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
@@ -17,7 +17,7 @@
     <OtherDefines Count="1">
       <Define0 Value="UseCThread"/>
     </OtherDefines>
-    <JumpHistory HistoryIndex="3">
+    <JumpHistory HistoryIndex="4">
       <Position>
         <Filename Value="timer.lpr"/>
         <Caret Line="13" Column="24"/>
@@ -33,6 +33,10 @@
       <Position>
         <Filename Value="timer.lpr"/>
         <Caret Line="20" Column="62"/>
+      </Position>
+      <Position>
+        <Filename Value="timer.lpr"/>
+        <Caret Line="35" Column="24" TopLine="15"/>
       </Position>
     </JumpHistory>
     <RunParams>

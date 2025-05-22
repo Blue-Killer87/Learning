@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "list.h"
+#include "xlist.h"
 #include "xref.h"
 
 #define CONTAINER_OF(PTR,TYPE,MEMBER) (((TYPE *)((intptr_t)(PTR))-(intptr_t)&((TYPE *)0)->MEMBER))
-
+ 
 
 struct x_s {
 	struct list_s Hook;
@@ -39,7 +39,7 @@ x_s *x_get_next (struct list_s *List, struct x_s *Prev){
 	_NextItem = (Prev ? Prev->Hook : *List).Next;
 	_Item = (_NextItem == List ? NULL : CONTAINER_OF(_NextItem, struct x_s, Hook));
 	if (_Item)
-		x_get (_Item);
+		x_get(_Item);
 	return _Item;	
 };
 
@@ -70,7 +70,7 @@ x_add_tail (struct x_s *Item, struct list_s *List){
 int
 x_remove (struct x_s *Item){
 	list_remove (&Item->Hook);
-	return x_put (Item);	
+	return x_put(Item);	
 }
 
 static void

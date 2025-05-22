@@ -1,0 +1,13 @@
+# Referrence Time Stamp - UTC: 1687424080307376 us, Calendar: Thu Jun 22 10:54:40 2023
+# Sample Description: IPL2 Test
+# Data Description: DAST 20230622_105440307376     
+# Creator: DAST 20230509225028
+# Sampling Freq.: 15000000 Hz
+# Sampling Freq. Fraction: 15000000 / 1 Hz
+# FT Order: 16384
+# FT Window Shift: 1024 samples
+# Averaging period: 0.001 s
+# Channel Gain: 30 dB
+# Channel Pre-Gain: 0 dB
+# Channel: 1
+# Format: Calendar_TimeStamp_String[36]: UTC_TimeStamp FT_Windows FT_Coef[0] ... FT_Coef[Order/2+1]

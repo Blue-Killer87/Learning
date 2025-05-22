@@ -42,7 +42,7 @@ PRINT_RESULTS = True
 
 class Map:
     def __init__(self):
-        # Graf reprezentovaný slovníkem: uzel → seznam sousedů (s délkou hrany)
+        # Graf reprezentovaný slovníkem: uzel - seznam sousedů (s délkou hrany)
         self.graph = {}
 
     def _normalize(self, name: str) -> str:

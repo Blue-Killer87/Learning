@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="consoleDatabase.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="84"/>
+        <CursorPos X="24" Y="111"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="14">
+      <Position>
+        <Filename Value="consoleDatabase.lpr"/>
+        <Caret Line="11" Column="34"/>
+      </Position>
+      <Position>
+        <Filename Value="consoleDatabase.lpr"/>
+        <Caret Line="17" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="consoleDatabase.lpr"/>
+        <Caret Line="63" Column="25" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="consoleDatabase.lpr"/>
+        <Caret Line="76" Column="13" TopLine="38"/>
+      </Position>
+      <Position>
+        <Filename Value="consoleDatabase.lpr"/>
+        <Caret Line="67" Column="13" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="consoleDatabase.lpr"/>
+        <Caret Line="72" Column="29" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="consoleDatabase.lpr"/>
+        <Caret Line="53" Column="20" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="consoleDatabase.lpr"/>
+        <Caret Line="77" Column="15" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="consoleDatabase.lpr"/>
+        <Caret Line="78" Column="15" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="consoleDatabase.lpr"/>
+        <Caret Line="84" Column="15" TopLine="46"/>
+      </Position>
+      <Position>
+        <Filename Value="consoleDatabase.lpr"/>
+        <Caret Line="51" Column="21" TopLine="46"/>
+      </Position>
+      <Position>
+        <Filename Value="consoleDatabase.lpr"/>
+        <Caret Line="64" Column="22" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="consoleDatabase.lpr"/>
+        <Caret Line="102" Column="20" TopLine="69"/>
+      </Position>
+      <Position>
+        <Filename Value="consoleDatabase.lpr"/>
+        <Caret Line="107" Column="15" TopLine="70"/>
+      </Position>
+      <Position>
+        <Filename Value="consoleDatabase.lpr"/>
+        <Caret Line="141" Column="20" TopLine="104"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
