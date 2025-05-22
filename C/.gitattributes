@@ -1,2 +1,9 @@
 *.dat linguist-language=text
-
+*.0 linguist-language=text
+*.1 linguist-language=text
+*.2 linguist-language=text
+*.Po linguist-language=text
+*.am linguist-language=text
+*.in linguist-language=text
+*.m4 linguist-language=shell
+*.status linguist-language=shell
