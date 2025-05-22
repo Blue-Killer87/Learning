@@ -1,0 +1,6 @@
+2025-05-15 Martin Drab
+	* : First liblist release created.
+
+2025-05-15 Martin Drab
+	* : Added autotools building scripts.
+	* : Updated to version 0.2

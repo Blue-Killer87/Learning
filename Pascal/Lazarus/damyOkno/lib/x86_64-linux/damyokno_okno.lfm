@@ -371,9 +371,9 @@ object Okno: TOkno
     00000003D03300030000C01F880FFCFF697A
   }
   Menu = hlavnimenu
+  LCLVersion = '4.0.0.4'
   OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate
-  LCLVersion = '3.8.0.0'
   object Panel1: TPanel
     Left = 0
     Height = 938

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="sort2.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="82"/>
+        <CursorPos X="3" Y="111"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="33" Column="40"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="51" Column="7" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="52" Column="3" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="29" Column="19" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="90" Column="32" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="40" Column="27" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="49" Column="37" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="36" Column="14" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="44" Column="55" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="38" Column="19" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="45" Column="59" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="46" Column="14" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="71" Column="28" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="73" Column="23" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="46" Column="23" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="82" Column="8" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="73" Column="49" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="99" Column="2" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="91" Column="21" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="93" Column="18" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="94" Column="30" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="67" Column="20" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="93" Column="17" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="84" Column="82" TopLine="65"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="89" Column="16" TopLine="70"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="32" Column="11" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="26" Column="15" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="22" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="114" Column="20" TopLine="82"/>
+      </Position>
+      <Position>
+        <Filename Value="sort2.lpr"/>
+        <Caret Line="109" Column="13" TopLine="82"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
