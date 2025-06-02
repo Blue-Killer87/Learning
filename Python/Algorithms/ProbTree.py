@@ -100,6 +100,9 @@ class BinTree:
             self.remove_leaf(current, prev)
         return True
 
+# -------------------------------------------------
+# Optimalization
+
 class OptimalTree(BinTree):
     def __init__(self, keys, P, Q):
         super().__init__()
@@ -134,13 +137,10 @@ class OptimalTree(BinTree):
         
         self.built_tree(i, k-1)
         self.built_tree(k, j)
-        
-        
+    
 
-
-
-
-
+#-----------------------------------------
+# Init
 
 
 
