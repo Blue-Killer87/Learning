@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1714586784"/>
+  <Params Value="-MObjFPC -Scghi -Cg -O1 -g -gl -l -vewnhibq -Fi/home/blue/Prog/Learning/Pascal/Semestral/lib/x86_64-linux -Fu/home/blue/Prog/Learning/Pascal/Semestral/ -Fu/home/blue/Prog/Learning/Pascal/Semestral/gui -Fu/home/blue/Prog/Learning/Pascal/Semestral/cli -Fu/usr/lib/lazarus/lcl/units/x86_64-linux/qt5 -Fu/usr/lib/lazarus/lcl/units/x86_64-linux -Fu/usr/lib/lazarus/components/freetype/lib/x86_64-linux -Fu/usr/lib/lazarus/components/lazutils/lib/x86_64-linux -Fu/usr/lib/lazarus/packager/units/x86_64-linux -FU/home/blue/Prog/Learning/Pascal/Semestral/lib/x86_64-linux/ -FE/home/blue/Prog/Learning/Pascal/Semestral/ -o/home/blue/Prog/Learning/Pascal/Semestral/backup_tool -dLCL -dLCLqt5 backup_tool.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>
