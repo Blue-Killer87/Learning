@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="backup_cli.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="45"/>
+        <CursorPos Y="84"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="backupconfig.pas"/>
+        <UnitName Value="BackupConfig"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../src/backupconfig.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BackupConfig"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="121"/>
+        <CursorPos Y="160"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="snapshotlogic.pas"/>
+        <UnitName Value="SnapshotLogic"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../src/snapshotlogic.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SnapshotLogic"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="28" Y="14"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../data/backup.ini"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="Ini"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="10">
+      <Position>
+        <Filename Value="../src/backupconfig.pas"/>
+        <Caret Line="12" Column="18"/>
+      </Position>
+      <Position>
+        <Filename Value="../src/snapshotlogic.pas"/>
+        <Caret Line="8" Column="21"/>
+      </Position>
+      <Position>
+        <Filename Value="backup_cli.lpr"/>
+        <Caret Line="25" Column="23" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="backup_cli.lpr"/>
+        <Caret Line="30"/>
+      </Position>
+      <Position>
+        <Filename Value="../src/backupconfig.pas"/>
+        <Caret Line="74"/>
+      </Position>
+      <Position>
+        <Filename Value="backup_cli.lpr"/>
+        <Caret Line="6" Column="13"/>
+      </Position>
+      <Position>
+        <Filename Value="../src/snapshotlogic.pas"/>
+        <Caret Line="16" Column="37"/>
+      </Position>
+      <Position>
+        <Filename Value="backup_cli.lpr"/>
+        <Caret Line="6" Column="13"/>
+      </Position>
+      <Position>
+        <Filename Value="../src/backupconfig.pas"/>
+        <Caret Line="13" Column="21"/>
+      </Position>
+      <Position>
+        <Filename Value="../src/backupconfig.pas"/>
+        <Caret Line="43" Column="27" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="backup_cli.lpr"/>
+        <Caret Line="8" Column="17"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
