@@ -4,14 +4,18 @@ unit SnapshotLogic;
 
 interface
 
+uses
+   SysUtils, Classes, BackupConfig, Unix;
+
 procedure CreateSnapshot;
 procedure ListSnapshots;
 procedure DeleteSnapshot(const Name: String);
+function GetSnapshotList: TStringList;
+
 
 implementation
 
-uses
-   SysUtils, BackupConfig, BaseUnix;
+
 
 function NowAsTimestamp: String;
 begin
@@ -82,6 +86,35 @@ begin
   else
     WriteLn('Failed to delete: ', Name);
 end;
+
+function GetSnapshotList: TStringList;
+var
+  SR: TSearchRec;
+  SnapList: TStringList;
+begin
+  SnapList := TStringList.Create;
+
+  if not DirectoryExists(DestinationDir) then
+  begin
+    Result := SnapList;
+    Exit;
+  end;
+
+  if FindFirst(IncludeTrailingPathDelimiter(DestinationDir) + '*', faDirectory, SR) = 0 then
+  begin
+    repeat
+      if (SR.Attr and faDirectory) <> 0 then
+      begin
+        if (SR.Name <> '.') and (SR.Name <> '..') and (Pos('snapshot_', SR.Name) = 1) then
+          SnapList.Add(SR.Name);
+      end;
+    until FindNext(SR) <> 0;
+    FindClose(SR);
+  end;
+
+  Result := SnapList;
+end;
+
 
 end.
 

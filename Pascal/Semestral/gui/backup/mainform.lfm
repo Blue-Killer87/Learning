@@ -1,8 +1,128 @@
-object Form1: TForm1
-  Left = 276
+object FormMain: TFormMain
+  Left = 1283
   Height = 1031
-  Top = 250
+  Top = 10
   Width = 946
-  Caption = 'Form1'
+  Anchors = [akBottom]
+  Caption = 'Backup Manager'
+  ClientHeight = 1031
+  ClientWidth = 946
+  Menu = MainMenu1
   LCLVersion = '4.0.0.4'
+  OnCreate = FormCreate
+  OnResize = FormResize
+  object ListSnapshots: TListBox
+    AnchorSideTop.Side = asrCenter
+    AnchorSideBottom.Control = ListLog
+    Left = 384
+    Height = 337
+    Hint = 'Click on snapshot to see options.'
+    Top = 104
+    Width = 488
+    Align = alCustom
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Right = 30
+    BorderSpacing.Bottom = 30
+    ItemHeight = 0
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+    OnClick = ListSnapshotsClick
+  end
+  object MemoInfo: TMemo
+    Left = 32
+    Height = 660
+    Top = 104
+    Width = 252
+    Align = alCustom
+    Alignment = taCenter
+    BidiMode = bdRightToLeftNoAlign
+    ParentBidiMode = False
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 1
+  end
+  object SourceDestLabel: TLabel
+    AnchorSideLeft.Control = MemoInfo
+    Left = 40
+    Height = 25
+    Top = 80
+    Width = 254
+    Anchors = [akTop]
+    Caption = 'Sources and destination'
+    Font.Height = -21
+    Font.Name = 'Sans Serif'
+    Layout = tlCenter
+    ParentFont = False
+  end
+  object SnapshotLabel: TLabel
+    AnchorSideLeft.Control = ListSnapshots
+    Left = 600
+    Height = 25
+    Top = 80
+    Width = 110
+    Align = alCustom
+    Anchors = [akTop]
+    BorderSpacing.Bottom = 5
+    Caption = 'Snapshots'
+    Font.Height = -21
+    Font.Name = 'Sans Serif'
+    Layout = tlCenter
+    ParentFont = False
+  end
+  object ListLog: TListBox
+    AnchorSideTop.Control = ListSnapshots
+    Left = 384
+    Height = 265
+    Top = 480
+    Width = 488
+    Align = alCustom
+    Anchors = [akLeft, akRight]
+    BorderSpacing.Top = 30
+    BorderSpacing.Right = 30
+    ItemHeight = 0
+    TabOrder = 2
+  end
+  object ProgressBar: TProgressBar
+    Left = 384
+    Height = 20
+    Top = 744
+    Width = 488
+    Align = alCustom
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Right = 30
+    BorderSpacing.Bottom = 30
+    TabOrder = 3
+    Visible = False
+  end
+  object MainMenu1: TMainMenu
+    Left = 32
+    Top = 16
+    object BtnSnapshot: TMenuItem
+      Caption = 'Create Snapshot'
+      OnClick = BtnSnapshotClick
+    end
+    object Source: TMenuItem
+      Caption = 'Source'
+      object BtnAddSource: TMenuItem
+        Caption = 'Add Source'
+        OnClick = BtnAddSourceClick
+      end
+      object BtnRemoveSource: TMenuItem
+        Caption = 'Remove Source'
+        OnClick = BtnRemoveSourceClick
+      end
+    end
+    object BtnSetDest: TMenuItem
+      Caption = 'Set Destination'
+      OnClick = BtnSetDestClick
+    end
+    object Help: TMenuItem
+      Caption = 'Help'
+    end
+  end
+  object PopupRemoveSources: TPopupMenu
+    Left = 80
+    Top = 16
+  end
 end

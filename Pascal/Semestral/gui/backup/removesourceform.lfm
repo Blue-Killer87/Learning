@@ -1,0 +1,27 @@
+object FormRemoveSource: TFormRemoveSource
+  Left = 263
+  Height = 1031
+  Top = 250
+  Width = 1900
+  Caption = 'FormRemoveSource'
+  ClientHeight = 1031
+  ClientWidth = 1900
+  LCLVersion = '4.0.0.4'
+  object BtnClose: TButton
+    Left = 424
+    Height = 25
+    Top = 264
+    Width = 75
+    Caption = 'BtnClose'
+    TabOrder = 0
+  end
+  object PanelContainer: TScrollBox
+    Left = 152
+    Height = 328
+    Top = 288
+    Width = 342
+    HorzScrollBar.Page = 1
+    VertScrollBar.Page = 1
+    TabOrder = 1
+  end
+end
