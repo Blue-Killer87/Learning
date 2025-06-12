@@ -36,9 +36,20 @@
       <Unit>
         <Filename Value="mainform.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="Form1"/>
+        <ComponentName Value="FormMain"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="MainForm"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../src/snapshotlogic.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SnapshotLogic"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../src/backupconfig.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BackupConfig"/>
       </Unit>
     </Units>
   </ProjectOptions>
