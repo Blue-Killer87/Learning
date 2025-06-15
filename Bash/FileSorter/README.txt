@@ -1,11 +1,11 @@
-Třídící BASH skript pro Linux 
+Sorting BASH script for Linux
 
-- Třídí soubory v závislosti na příponě souboru
-- Soubory se hledají v adresářích, které specifikuje uživatel (addsource)
-- Jak se třídí jaké soubory také specifikuje uživatel pomocí pravidel (addrule)
-- Skript se spustí (příkaz run) a provede třízení každých n sekund
-- Jak často se skript spouští může uživatel také definovat (default je 10 minut, příkaz timer)
-- Skript se dá také ukončit pomocí příkazu stop
-- Všechny příkazy a parametry shrnuje nápověda skriptu, podle ní je celkem jasné jak funguje
-- V případě dotazů/poznámek se klidně obratťě na můj email či teams
+- Sorts files based on the given extension
+- Files are taken from directories that user defines (addsource)
+- How to sort what files is defined by rules set by user (setrule)
+- User runs script (run) and the script sorts files everz n seconds
+- How often does the script sort can also be defined by the user, default is 10 minutes (timer)
+- Script can be terminated by the user (stop)
+- Every command is described in the script help screen, from which its functionality is quite obvious
+
 
