@@ -15,6 +15,7 @@ def solve_n_queens(n, fixed_row, fixed_col):
                 3) n >= 4 (not worth it for lesser)
     '''
 
+
     solutions = [] # Variable for solution storage
 
     # Searching for solution using return values (backtracking)
@@ -47,6 +48,7 @@ def print_board(n, queens):
         print(' '.join(row))
     print()
 
+
 def main():
     print("Problem of N Queens with one queen on set position")
     n = int(input("\nSet the number of Queens (n): "))
@@ -74,7 +76,9 @@ def main():
         cont = input("\nShow next solution? (Enter = yes, other = end): ")
         if cont.strip():
             break
+        print("\033c")
         print_board(n, solutions[i])
+        
         i += 1
 
 if __name__ == "__main__":

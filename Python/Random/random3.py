@@ -20,18 +20,26 @@ def modulate(input=1):
         (i*input%2)//10
         input=i
     return input
+testTotal = []
 
-tests = 10000000
-random = -1
-testcase = []
-duplicate = 0
-for i in range(tests):
-    lastrandom = random
-    random = RandomNumber()
-    if random == lastrandom:
-        duplicate += 1
-    testcase.append(random)
-    print(random, end=" ")
-print(f"\n\nNumber of testcases: {tests}\nNumber of duplicates: {duplicate}\nTotal randomness: {100-(duplicate/tests*100)}%")
+for i in range(5):
+    tests = 10000
+    random = -1
+    testcase = []
+    duplicate = 0
+    for i in range(tests):
+        lastrandom = random
+        random = RandomNumber()
+        if random == lastrandom:
+            duplicate += 1
+        testcase.append(random)
+        print(random, end=" ")
+    print(f"\n\nNumber of testcases: {tests}\nNumber of duplicates: {duplicate}\nTotal randomness: {100-(duplicate/tests*100)}%")
+    testTotal.append(100-(duplicate/tests*100))
+
+overallperc = 0
+for i in testTotal:
+    overallperc += i
+print(f"Total mean randomness: {overallperc/5}%")
 
 
