@@ -1,5 +1,0 @@
-#!/bin/bash
-
-[ -f Makefile ] && make distclean
-rm -fvr autom4te.cache build-aux `find . -mindepth 1 -type d -name ".*"`
-rm -fv `find . -name "*.in"` `find . -name "*~"` stamp-h1 config.* aclocal.m4 `find . -name "Makefile"` libtool configure
