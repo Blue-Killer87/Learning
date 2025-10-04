@@ -14,16 +14,17 @@ power(long long x, int n){
     return helper;
 }
 
-int input(){
+int 
+input(){
     int r;
     do
     {
         std::cout << "Insert radius (Positive number): ";
         std::cin >> r;
     } while (r <= 0);
-    return r;
-    
+    return r;    
 }
+
 float 
 surface(float r){
     s = 4*pi*pow(r,2);
