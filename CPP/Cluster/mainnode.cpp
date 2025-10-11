@@ -15,12 +15,14 @@ int main(int argc, char* argv[]) {
     }
 
     const char* slave_ip = argv[1];
-    int port = 5555;
+    int port = 1933;
     std::string command = argv[2];
     for (int i = 3; i < argc; ++i) {
         command += " ";
         command += argv[i];
     }
+
+    
 
     int sock = socket(AF_INET, SOCK_STREAM, 0);
     if (sock < 0) {
@@ -54,3 +56,6 @@ int main(int argc, char* argv[]) {
     close(sock);
     return 0;
 }
+
+
+

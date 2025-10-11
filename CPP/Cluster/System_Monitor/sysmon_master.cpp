@@ -17,7 +17,7 @@
 #include <netdb.h>
 #include <ctime>
 
-#define PORT 5555
+#define PORT 1933
 #define CONFIG_FILE "/bin/node.conf"
 
 using namespace std;

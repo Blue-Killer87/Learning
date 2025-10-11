@@ -8,7 +8,7 @@
 #include <cstring>
 #include <cstdlib>
 
-#define PORT 5555
+#define PORT 1933
 #define BUFFER_SIZE 1024
 
 int main() {
@@ -45,6 +45,7 @@ int main() {
             continue;
         }
 
+
         memset(buffer, 0, BUFFER_SIZE);
         read(new_socket, buffer, BUFFER_SIZE);
         std::cout << "[Slave] Received command: " << buffer << std::endl;
@@ -56,7 +57,7 @@ int main() {
             send(new_socket, error.c_str(), error.size(), 0);
         } else {
             char result[BUFFER_SIZE];
-            while (fgets(result, sizeof(result), pipe) != NULL) {
+            while (fgets(result, sizeof(result), pipe) != nullptr) {
                 send(new_socket, result, strlen(result), 0);
             }
             pclose(pipe);
