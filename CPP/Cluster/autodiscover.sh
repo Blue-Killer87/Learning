@@ -3,7 +3,7 @@
 # Autodiscover searches the local network of a cluster and lists located devices together with their IP addresses.
 
 CONF_FILE="/bin/node.conf"
-PORT=5555
+PORT=1933
 
 # Detect subnet dynamically (assumes interface is up and has a private IP)
 SUBNET=$(ip -4 addr show | grep -oP 'inet \K192\.168\.\d+' | head -n1)
