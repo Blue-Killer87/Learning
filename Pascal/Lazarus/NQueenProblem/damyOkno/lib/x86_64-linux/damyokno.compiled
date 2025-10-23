@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CONFIG>
-  <Compiler Value="/usr/bin/fpc" Date="1714586784"/>
-  <Params Value="-MObjFPC -Scghi -Cg -O1 -gw3 -gl -l -vewnhibq -Fi/home/blue/Prog/Learning/Pascal/Lazarus/damyOkno/lib/x86_64-linux -Fu/home/blue/Prog/Learning/Pascal/Lazarus/damyOkno/ -Fu/home/blue/Prog/Learning/Pascal/Lazarus/damyOkno/damy -Fu/usr/lib/lazarus/lcl/units/x86_64-linux/qt5 -Fu/usr/lib/lazarus/lcl/units/x86_64-linux -Fu/usr/lib/lazarus/components/freetype/lib/x86_64-linux -Fu/usr/lib/lazarus/components/lazutils/lib/x86_64-linux -Fu/usr/lib/lazarus/packager/units/x86_64-linux -FU/home/blue/Prog/Learning/Pascal/Lazarus/damyOkno/lib/x86_64-linux/ -FE/home/blue/Prog/Learning/Pascal/Lazarus/damyOkno/ -o/home/blue/Prog/Learning/Pascal/Lazarus/damyOkno/damyokno -dLCL -dLCLqt5 damyokno.lpr"/>
-</CONFIG>
