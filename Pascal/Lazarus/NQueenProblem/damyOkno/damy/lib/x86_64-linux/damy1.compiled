@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CONFIG>
-  <Compiler Value="/usr/bin/fpc" Date="1714586784"/>
-  <Params Value=" -MObjFPC -Scghi -Cg -O1 -gw3 -gl -l -vewnhibq -Fi/home/blue/Prog/Pascal/Programs/Lazarus/damy/lib/x86_64-linux -Fu/home/blue/Prog/Pascal/Programs/Lazarus/damy/ -FU/home/blue/Prog/Pascal/Programs/Lazarus/damy/lib/x86_64-linux/ -FE/home/blue/Prog/Pascal/Programs/Lazarus/damy/ -o/home/blue/Prog/Pascal/Programs/Lazarus/damy/damy1 damy1.lpr"/>
-</CONFIG>
