@@ -9,7 +9,7 @@ def addTwoNumbers(l1, l2):
         :type l2: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
-
+        
         carry = 0
         carried = False
         result = []
