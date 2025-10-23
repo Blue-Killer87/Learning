@@ -17,7 +17,7 @@ struct x_s {
 struct 
 x_s *x_create (int x){
 	struct x_s *_Item;
-	Item = malloc (sizeof *_Item);
+	_Item = malloc (sizeof *_Item);
 	if(!_Item)
 		goto out;
 

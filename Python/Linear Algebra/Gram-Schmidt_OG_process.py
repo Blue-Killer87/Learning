@@ -77,7 +77,6 @@ def sylvester(matrix):
 def generic_scalar(u, v, G):
     return sum(u[i] * sum(G[i][j] * v[j] for j in range(len(G))) for i in range(len(G)))
 
-
 # Výpočet "projekce" vektoru v na vektor u podle obecného skalárního součinu
 # (<v,u>/<u,u>)*u
 # Potřebné pro odečtení složky vektoru ve směru jiného (pro G-S)
@@ -121,7 +120,7 @@ def gauss_rank(matrix):
             if A[row][col] != 0:
                 pivot_row = row
                 break
-
+            
         # Pokud pivot najdeme:    
         if pivot_row is not None:
             A[rank], A[pivot_row] = A[pivot_row], A[rank] # prohodíme řádky
