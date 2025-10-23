@@ -17,4 +17,7 @@ main(){
 
     cout << "Lowercase: " << toLower(c) << endl;
     cout << "Uppercase: " << toUpper(c);
-};
+}
+
+
+
