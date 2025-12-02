@@ -13,11 +13,9 @@ char2Digit(char c){
     else{
         return -1;
     }
-
 }
 
 int
-
 digitSum(int i, int sum){
     return sum*10 + i;
 }
