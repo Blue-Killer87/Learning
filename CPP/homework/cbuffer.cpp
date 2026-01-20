@@ -94,7 +94,6 @@ public:
 
 
 // využití fronty (pro testování)
-
 int 
 main(){
     int N;
